@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+</head>
+<body>
+    <nav class="text">
+        <h1>Simple,traffic-based pricing</h1>
+        <h2>Sign-up for our 30-day trial. No credit card required.</h2>
+    </nav>
+    <nav class="container">
+        <div class="header">
+            <div class="header-left">
+                <h1>100K PAGEVIEWS</h1>
+            </div>
+            <div class="header-right">
+                <span id="finalPrice"></span>
+                <span id="text">/ month</span>
+            </div>
+        </div>
+
+        <input type="range" id="myRange">
+        <div class="billing">
+            <div class="monthly">
+            <h3 id="monthly">Monthly Billing</h3>
+        </div>
+            <div class="toggle-background">
+                <div class="toggle"></div>
+            </div>
+            <div class="yearly">
+            <h3 id="yearly">Yearly Billing</h3>
+        </div>
+            <div class="discount"><h4>25% discount</h4></div>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+                <span><img src="images/icon-check.svg">Unlimite websites</span>
+                <span><img src="images/icon-check.svg">100% data ownership</span>
+                <span><img src="images/icon-check.svg">Email reports</span>
+            </div>
+            <div class="footer-right">
+                <button type="button" id="submitBtn">Start my trial</button>
+            </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
